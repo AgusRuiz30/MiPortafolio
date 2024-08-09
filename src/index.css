@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  background-color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #19a7ce;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #146c94;
+}

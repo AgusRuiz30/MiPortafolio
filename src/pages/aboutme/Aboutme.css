@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
+
+h1 {
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 2.5em;
+}
+
+.sub-main {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #19a7ce;
+}
+
+.img-main {
+  width: 250px;
+}
+
+.button-porta {
+  background-color: #146c94;
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+
+.button-porta:hover {
+  background-color: #19a7ce;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 2em;
+}
+
+.container-main-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.redes {
+  color: #146c94;
+  padding: 0.5em;
+  border-radius: 2em;
+  transition: all 0.5s;
+}
+
+.redes:hover {
+  color: #19a7ce;
+}
+
+.icon-redes {
+  display: flex;
+  gap: 1.1em;
+}

@@ -1,0 +1,150 @@
+.footer {
+  background-color: #000; /* Negro */
+  color: #fff;
+  padding: 2em 1em;
+  text-align: center;
+  border-top: 4px solid #19a7ce; /* Celeste claro */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+  gap: 2em;
+}
+
+.logo-section {
+  flex: 1;
+}
+
+.footer-logo {
+  max-width: 120px;
+  height: auto;
+}
+
+.about-section {
+  flex: 2;
+  text-align: left;
+}
+
+.about-section h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #19a7ce;
+  text-transform: uppercase;
+}
+
+.about-section p {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1em;
+  color: #d9d9d9;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.footer-nav {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-nav h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #19a7ce;
+  text-transform: uppercase;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.footer-nav li {
+  margin: 0;
+}
+
+.footer-link {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.footer-link:hover {
+  color: #146c94;
+}
+
+.social-media-section {
+  flex: 1;
+  text-align: center;
+}
+
+.social-media-section h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #19a7ce;
+  text-transform: uppercase;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.redes {
+  font-size: 2em;
+  color: #d9d9d9;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.redes:hover {
+  transform: scale(1.1);
+  color: #146c94;
+}
+
+.footer-bottom {
+  margin-top: 2em;
+  padding-top: 1em;
+  font-size: 0.9em;
+  color: #b3b3b3;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+  }
+
+  .about-section {
+    text-align: center;
+  }
+
+  .footer-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+}

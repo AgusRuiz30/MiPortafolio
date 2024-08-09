@@ -1,0 +1,150 @@
+.container-main-clientes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  position: relative;
+  margin-top: 2em;
+}
+
+.carousel-items {
+  display: flex;
+  gap: 4em;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade {
+  opacity: 0.1;
+}
+
+.container-clientes {
+  height: 350px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-clientes {
+  width: 150px;
+  border-radius: 30em;
+  z-index: 1;
+  border: 5px solid #19a7ce;
+}
+
+.text-name {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #146c94;
+  font-size: 2em;
+}
+
+.text-desc {
+  font-family: sans-serif;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 240px;
+  padding: 5px;
+  text-align: center;
+  width: 280px;
+  background-color: white;
+  gap: 1em;
+  border-radius: 2em;
+  margin-top: -6em;
+}
+
+.text-subs {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #19a7ce;
+  font-size: 2em;
+}
+
+.carousel-button {
+  background-color: #000;
+  border: none;
+  color: white;
+  font-size: 2em;
+  padding: 0.5em 1em;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.veri-name {
+  color: gray;
+  width: 5px;
+}
+
+.carousel-button.prev {
+  left: 12em;
+}
+
+.carousel-button.next {
+  right: 12em;
+}
+
+.carousel-button:hover {
+  background-color: #146c94;
+}
+
+@media (max-width: 768px) {
+  .container-main-clientes {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .carousel-items {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .container-clientes {
+    height: 250px;
+    width: 100%;
+  }
+
+  .container-text {
+    margin-top: -3em;
+    height: 200px;
+  }
+
+  .text-subs {
+    font-size: 1.2em;
+  }
+
+  .text-desc {
+    font-size: 0.9em;
+  }
+
+  .text-name {
+    font-size: 1em;
+  }
+
+  .img-clientes {
+    width: 120px;
+  }
+
+  .carousel-button.prev {
+    left: 1em;
+  }
+
+  .carousel-button.next {
+    right: 1em;
+  }
+}
