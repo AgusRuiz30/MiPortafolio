@@ -15,16 +15,14 @@ function App() {
   }, []);
 
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Aboutme />}></Route>
-          <Route element={<Navbar />}>
-            <Route path="/Portafolio" element={<Works />}></Route>
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Aboutme />} />
+        <Route element={<Navbar />}>
+          <Route path="/Portafolio" element={<Works />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

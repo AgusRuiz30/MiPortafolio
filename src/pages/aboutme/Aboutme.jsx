@@ -1,27 +1,36 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Aboutme.css";
-import { Link } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export const Aboutme = () => {
+  const [isLeaving, setIsLeaving] = useState(false);
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    setIsLeaving(true);
+
+    setTimeout(() => {
+      navigate("/Portafolio");
+    }, 500);
+  };
+
   return (
-    <div className="container-main">
+    <div className={`container-main ${isLeaving ? "fade-out" : ""}`}>
       <div className="container-main-a">
         <img
           src="https://res.cloudinary.com/dlmljdft1/image/upload/v1720721792/logo_blanco_ghza2h.png"
           alt=""
           className="img-main"
         />
-
         <h1>Agvstin30 Portafolio</h1>
         <h3 className="sub-main">Video Editor & Front End Developer</h3>
       </div>
-      <Link to="/Portafolio">
-        {" "}
-        <button className="button-porta">Mi Portafolio</button>
-      </Link>
-
+      <button className="button-porta" onClick={handleButtonClick}>
+        Mi Portafolio
+      </button>
       <div className="icon-redes">
         <a href="https://www.instagram.com/agvstin30/" target="_blank">
           <InstagramIcon className="redes" />

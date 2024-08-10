@@ -6,7 +6,7 @@ import Footer from "../../components/Footer/Footer";
 export const Works = () => {
   return (
     <div>
-      <div className="works-container-text reveal">
+      <div className="works-container-text fade-in">
         <h1 className="title-works">HOLA SOY AGVSTIN30!</h1>
         <p className="text-works">
           Trabajé más de tres años como editor de videos para diferentes
@@ -15,15 +15,15 @@ export const Works = () => {
           adaptamiento para ello.
         </p>
       </div>
-      <div className="container-youtubers reveal">
+      <div className="container-youtubers fade-in">
         <h2 className="title-client">#CLIENTES</h2>
         <ClientesContainer />
       </div>
 
-      <div id="trabajos" className="reveal">
+      <div id="trabajos" className="fade-in">
         <h2 className="title-videos">MIS TRABAJOS</h2>
         <h3 className="text-trabajos">
-          Te dejo aqui los mejores videos editados por mi!
+          Te dejo aquí los mejores videos editados por mí!
         </h3>
         <VideosContainer />
       </div>
