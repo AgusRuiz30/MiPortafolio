@@ -1,6 +1,18 @@
 export let videos = [
   {
+    id: 13,
+    yt: "TotyRT",
+    img: "https://yt3.googleusercontent.com/T6BhXZ9Jtl4qjT2EwWn3P9VSMjJEWQcoo1U8MflT_Uc2xdmcvC73Vli-PPFp69fk3e2gUlWUqw=s160-c-k-c0x00ffffff-no-rj",
+    video: "https://www.youtube.com/shorts/CkOzB0dSxfI",
+  },
+  {
     id: 1,
+    yt: "Nuzito",
+    img: "https://yt3.googleusercontent.com/1ueWbFwDzc7ugo60dVUyo_NXvrGhbZAf6ai5vOmZChmlKI0a0Wi_P1HJ5InNYDqhK8PqjGKq6A=s160-c-k-c0x00ffffff-no-rj",
+    video: "https://www.youtube.com/watch?v=76-Gb9UXWI0&t=28s",
+  },
+  {
+    id: 14,
     yt: "waikol",
     img: "https://yt3.googleusercontent.com/r-9d31NQx290SrghvzEyLhFot6wepuvOpxK_cgMSa4TyKVy12-4dcHqVJbBDOiI8aiKYXfZc=s160-c-k-c0x00ffffff-no-rj",
     video: "https://www.youtube.com/watch?v=GcM6HlPMxV4",
