@@ -9,7 +9,7 @@ export let videos = [
     id: 1,
     yt: "Nuzito",
     img: "https://yt3.googleusercontent.com/1ueWbFwDzc7ugo60dVUyo_NXvrGhbZAf6ai5vOmZChmlKI0a0Wi_P1HJ5InNYDqhK8PqjGKq6A=s160-c-k-c0x00ffffff-no-rj",
-    video: "https://www.youtube.com/watch?v=76-Gb9UXWI0&t=28s",
+    video: "https://youtu.be/FgFFJxtd-Eo",
   },
   {
     id: 14,
